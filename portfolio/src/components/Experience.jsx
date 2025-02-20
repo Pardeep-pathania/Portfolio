@@ -34,6 +34,9 @@ function Experience() {
                 <SiRadis color='#FF4438' size={50}/>
             </span> */}
             </div>
+
+            <div>
+
             <div className='flex gap*-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4  items-center'>
                 <span className='text-white '>
                     <h2 className='leading-tight'>Python Developer, Future Finders</h2>
@@ -44,6 +47,7 @@ function Experience() {
                     </ul>
                 </span>
             </div>
+
             <div className='flex gap*-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4  items-center'>
                 <span className='text-white '>
                     <h2 className='leading-tight'>MERN STACK Developer, ThinkNext</h2>
@@ -53,6 +57,7 @@ function Experience() {
                         <li>As a Intern</li>
                     </ul>
                 </span>
+            </div>
             </div>
       </div>
     </div>

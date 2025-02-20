@@ -1,7 +1,9 @@
 import About from "./components/About"
 import Experience from "./components/Experience"
+import Footer from "./components/Footer"
 import Home from "./components/Home"
 import Navbar from "./components/Navbar"
+import Projects from "./components/Project/Projects"
 
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
    <Home/>
    <About/>
    <Experience/>
+   <Projects/>
+   <Footer/>
   </div>
 )} 
 export default App
