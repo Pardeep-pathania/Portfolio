@@ -32,7 +32,7 @@ const router = createBrowserRouter(
     },
     {
       path:"/skillsSection/SkillsMain",
-      element: <div className="bg-[#171d32] h-auto w-full ">
+      element: <div className="bg-[#171d32] h-auto w-full -z-10 ">
       <Navbar/>
       <SkillsMain/>
     </div>
@@ -56,14 +56,6 @@ const router = createBrowserRouter(
     </div>
     },
 
-    // {
-    //   path:"/projects",
-    //   element: <div className="bg-[#171d32] h-auto w-full overflow-hidden">
-    //   <Navbar/>
-    //   <Projects/>
-    //   <Footer/>
-    // </div>
-    // },
 
     {
       path:"/contact",
