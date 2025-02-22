@@ -8,6 +8,10 @@ export const NavbarData = [
       title:"About",
     },
     {
+      path:"/skillsSection/SkillsMain",
+      title:"Skills",
+    },
+    {
       path:"/experience",
       title:"Experience",
     },
@@ -16,7 +20,7 @@ export const NavbarData = [
       title:"Project",
     },
     {
-      path:"/footer",
+      path:"/contact",
       title:"Contact Me",
     },
   ]

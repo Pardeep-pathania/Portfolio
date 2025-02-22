@@ -10,8 +10,8 @@ function Navbar() {
 
   return (
     <div>
-      <nav className='flex flex-wrap justify-between md:items-center text-white px-10 pt-6
-      md:px-20 border-b-2 border-slate-950'>
+      <nav className='flex flex-wrap justify-between md:items-center bg-[#171d32] text-white px-10 pt-6
+      md:px-20 border-b-2 border-slate-950 fixed w-full'>
         <span className='text-2xl font-bold tracking-wide'>Pardeep's Portfolio</span>
 
 

@@ -6,6 +6,7 @@ import Home from "./components/Home"
 import Navbar from "./components/Navbar"
 import Projects from "./components/Project/Projects"
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import SkillsMain from "./components/skillsSection/SkillsMain"
 
 const router = createBrowserRouter(
   [
@@ -16,6 +17,7 @@ const router = createBrowserRouter(
       <Navbar/>
       <Home/>
       <About/>
+      <SkillsMain/>
       <Experience/>
       <Projects/>
       <Footer/>
@@ -26,6 +28,13 @@ const router = createBrowserRouter(
       element: <div className="bg-[#171d32] h-auto w-full overflow-hidden">
       <Navbar/>
       <About/>
+    </div>
+    },
+    {
+      path:"/skillsSection/SkillsMain",
+      element: <div className="bg-[#171d32] h-auto w-full overflow-hidden">
+      <Navbar/>
+      <SkillsMain/>
     </div>
     },
 
@@ -47,17 +56,17 @@ const router = createBrowserRouter(
     </div>
     },
 
-    {
-      path:"/projects",
-      element: <div className="bg-[#171d32] h-auto w-full overflow-hidden">
-      <Navbar/>
-      <Projects/>
-      <Footer/>
-    </div>
-    },
+    // {
+    //   path:"/projects",
+    //   element: <div className="bg-[#171d32] h-auto w-full overflow-hidden">
+    //   <Navbar/>
+    //   <Projects/>
+    //   <Footer/>
+    // </div>
+    // },
 
     {
-      path:"/footer",
+      path:"/contact",
       element: <div className="bg-[#171d32] h-auto w-full overflow-hidden">
       <Navbar/>
       <Contactpic/>
