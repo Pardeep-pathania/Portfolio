@@ -32,7 +32,7 @@ const router = createBrowserRouter(
     },
     {
       path:"/skillsSection/SkillsMain",
-      element: <div className="bg-[#171d32] h-auto w-full overflow-hidden">
+      element: <div className="bg-[#171d32] h-auto w-full ">
       <Navbar/>
       <SkillsMain/>
     </div>

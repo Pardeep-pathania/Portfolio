@@ -2,7 +2,7 @@ import React from 'react'
 import { FaCss3Alt, FaHtml5, FaJs, FaReact, FaGithub } from "react-icons/fa";
 import { SiRedux, SiMongodb } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
-import SingleSkills from './SingleSkills';
+// import SingleSkills from './SingleSkills';
 
 const skills = [
     {
