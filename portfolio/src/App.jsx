@@ -35,6 +35,7 @@ const router = createBrowserRouter(
       element: <div className="bg-[#171d32] h-auto w-full -z-10 ">
       <Navbar/>
       <SkillsMain/>
+      <Footer/>
     </div>
     },
 

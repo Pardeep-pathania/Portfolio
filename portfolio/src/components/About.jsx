@@ -18,11 +18,13 @@ function About() {
               <IoArrowForward size={30} className="mt-1" />
 
               <span className='w-96'>
-                <h1 className='text-xl md:text-2xl font-semibold leading-normal'>Frontend Developer</h1>
+                <h1 className='text-xl md:text-2xl font-semibold leading-normal hover:text-blue-600'>Frontend Developer</h1>
                 <p className='text-sm md:text-md leading-tight'>
-                  Hello! I’m a Front-End Developer with a passion for creating visually stunning and user-friendly
-                   web applications. With a strong foundation in HTML, CSS, and JavaScript, I specialize in building 
-                   responsive and interactive interfaces that enhance user experience.
+                As a passionate Frontend Developer with a strong focus on React.js, I specialize in creating
+                 dynamic and responsive user interfaces that deliver exceptional user experiences. My expertise
+                  in modern JavaScript, HTML, CSS and Tailwind combined with my proficiency in React, allows me to build 
+                  scalable and maintainable web applications.<br/> My experience with popular libraries and tools such as Redux,
+                   React Router, and styled-components enhances my ability to create seamless and interactive applications.
                 </p>
               </span>
 
@@ -32,17 +34,16 @@ function About() {
               <IoArrowForward size={30} className="mt-1" />
 
               <span className='w-96'>
-                <h1 className='text-xl md:text-2xl font-semibold leading-normal'>Backend Developer</h1>
+                <h1 className='text-xl md:text-2xl font-semibold leading-normal hover:text-blue-600'>Backend Developer</h1>
                 <p className='text-sm md:text-md leading-tight'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque repellat accusamus sunt blanditiis,
-                  illo nihil aliquam harum deserunt quisquam laboriosam excepturi facere porro nisi a alias quis,
-                  impedit praesentium libero!
+                I specialize in building robust and scalable server-side applications that power dynamic
+                web and mobile experiences. With a strong foundation in programming languages such as Node.js,ExpressJs
+                JavaScript, I excel in designing RESTful APIs, managing databases using MongoDB, and ensuring seamless
+                data flow between the server and client.
                 </p>
               </span>
 
             </div>
-
-
           </ul>
         </div>
       </div>
